@@ -11,7 +11,7 @@ export const Navbar = () => {
 
     // --------- usestate for responsive ----------
     const [active,setActive] =useState(false)
-    console.log(active)
+
 
 
 
@@ -70,7 +70,7 @@ export const Navbar = () => {
                             <span className={`w-[20px] h-[3px] bg-black rounded-full flex absolute top-0 right-0 ${active? 'top-[7px] rotate-45' : 'top-0 rotate-0'} duration-[.4s]`}
                             ></span>
                             <span className={`w-[20px] h-[3px] bg-black rounded-full flex absolute top-[50%] right-0 ${active? 'hidden' : 'block'}`}></span>
-                            <span className={`w-[20px] h-[3px] bg-black rounded-full flex absolute  right-0 ${active? 'top-[7px] rotate-[-45deg]' : 'top-full rotate-0'}`}></span>
+                            <span className={`w-[20px] h-[3px] bg-black rounded-full flex absolute  right-0 ${active? 'top-[7px] rotate-[-45deg]' : 'top-full rotate-0'} duration-[.4s]`}></span>
                         </button>
                         {/* -------- items ---------- */}
                         <div className={`w-[80%] bg-gray-500 py-[15px] rounded-[15px] px-[15px] flex justify-center absolute top-[70px] text-center ${active? 'right-[40px]' : 'right-[100%]'} duration-[.4s]`}>
