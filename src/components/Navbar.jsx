@@ -24,9 +24,9 @@ export const Navbar = () => {
         <div className='container'>
             <div className='row flex justify-between items-center'>
                 {/* ----------- logo ---------- */}
-                <div>
+                <Link to={'/'}>
                     <img className='rounded-[17px]' src={logo} alt="logo" />
-                </div>
+                </Link>
                 {/* ----------- items ------ */}
                 <div>
                     <ul className='flex items-center gap-[75px]'>
@@ -48,13 +48,13 @@ export const Navbar = () => {
 
 
     {/* -------------- responsive ------------ */}
-    <nav id='resNav' className=' lg:hidden py-[15px]'>
+    <nav id='resNav' className=' lg:hidden py-[15px] border-b border-[#00000037]'>
         <div className='container'>
             <div className='row flex items-center justify-between'>
                 {/* ----------- logo ------------- */}
-                <div className='w-[70px]'>
+                <Link to={'/'} className='w-[70px]'>
                     <img className=' rounded-[13px]' src={logo} alt="logo" />
-                </div>
+                </Link>
                 {/* ------------- input ----------- */}
                 <div className='w-[170px] h-[33px] rounded-[9999px] bg-[#F8F8F8] flex items-center pl-[11px] gap-[7px]'>
                     <CiSearch className='text-[19px]'/>
