@@ -32,8 +32,8 @@ export const Navbar = () => {
                     <ul className='flex items-center gap-[75px]'>
                         <li><Link className='font-medium font-poppins text-[16px] text-black'>Home</Link></li>
                         <li><Link className='font-medium font-poppins text-[16px] text-black'>Shop</Link></li>
-                        <li><Link className='font-medium font-poppins text-[16px] text-black'>About</Link></li>
-                        <li><Link className='font-medium font-poppins text-[16px] text-black'>Contact</Link></li>
+                        <li><Link to={'/blog'} className='font-medium font-poppins text-[16px] text-black'>About</Link></li>
+                        <li><Link to={'/contact'} className='font-medium font-poppins text-[16px] text-black'>Contact</Link></li>
                     </ul>
                 </div>
                 {/* ------------ buttons --------- */}

@@ -14,7 +14,7 @@ export const BreadCrumb = ({Name,pageName}) => {
                 <div>
                     <img className='w-[77px] m-auto' src={logo} alt="logo" />
                 </div>
-                <h2 className='font-bold font-poppins text-[48px] text-black'>{Name}</h2>
+                <h2 className='font-bold font-poppins text-[48px] text-black text-center'>{Name}</h2>
                 <div  className='flex items-center gap-[7px] mt-[3px] ml-[23px]'>
                     <Link to={'/'} className='font-medium font-poppins text-[16px] text-black'>Home</Link>
                     <IoIosArrowForward />
