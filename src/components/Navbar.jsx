@@ -20,7 +20,7 @@ export const Navbar = () => {
 
   return (
     <>
-    <nav id='Navbar' className='py-[17px] bg-[#FBEBB5] border-b border-[#00000038] hidden lg:block'>
+    <nav id='Navbar' className='py-[17px]  border-b border-[#00000038] hidden lg:block'>
         <div className='container'>
             <div className='row flex justify-between items-center'>
                 {/* ----------- logo ---------- */}
@@ -61,7 +61,7 @@ export const Navbar = () => {
                     <input className='w-full h-full outline-none border-none' type="text" placeholder='Search' />
                 </div>
                 {/* -------- buttons ---------- */}
-                <div className='flex gap-[19px]'>
+                <div className='flex gap-[19px] items-center'>
                     <div>
                         <button><BsCart3 className='text-[17px]' /></button>
                     </div>

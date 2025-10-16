@@ -5,7 +5,7 @@ export const CommonHead = ({start,end}) => {
     <div>
         <div className='text-center hidden lg:block'>
             <h2 className='font-medium font-poppins text-[36px] text-black'>{start}</h2>
-            <p className='font-medium font-poppins text-[16px] text-second mt-[13px]'>{end}</p>
+            <p className='font-medium font-poppins text-[16px] text-second mt-[13px] w-[645px] m-auto'>{end}</p>
         </div>
 
         {/* ---------- responsive ------------- */}
