@@ -3,7 +3,8 @@ import { Link } from 'react-router'
 import bigpro from '../assets/images/Asgaard sofa 1.png'
 export const NewArrival = () => {
   return (
-   <section id='newArrival' className='py-[217px] bg-[#FFF9E5] relative'>
+    <>
+   <section id='newArrival' className='py-[217px] bg-[#FFF9E5] relative hidden lg:block'>
     <div className='absolute left-0 top-0'>
         <img className='w-[800px] h-[700px]' src={bigpro} alt="product" />
     </div>
@@ -22,5 +23,26 @@ export const NewArrival = () => {
         </div>
     </div>
    </section>
+   
+   {/* ------------ responsive ---------------- */}
+   <section id='newArrival' className='py-[37px] bg-[#FFF9E5] relative lg:hidden'>
+    <div className='conatiner'>
+        <div className='text-center'>
+            <h2 className='font-medium text-[25px] font-poppins text-black'>New Arrivals</h2>
+            <div>
+                <img className='w-full h-auto' src={bigpro} alt="product" />
+            </div>
+            <h2 className='font-bold font-poppins text-[33px] text-black mb-[15px]'>Asgaard sofa</h2>
+            <Link class="fancy">
+                <span class="top-key"></span>
+                <span class="text">Order Now</span>
+                <span class="bottom-key-1"></span>
+                <span class="bottom-key-2"></span>
+            </Link>
+        </div>
+    </div>
+   </section>
+    
+    </>
   )
 }
