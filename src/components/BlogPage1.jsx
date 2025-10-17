@@ -40,9 +40,21 @@ export const BlogPage1 = () => {
                         <p className='font-normal font-poppins text-[15px] text-second w-[815px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
                     </div>
                     {/* ---------- button --------- */}
-                    <div>
-                        <Link className='font-poppins font-normal text-[16px] text-black border-b-2 mt-[30px] inline-block'>Read more</Link>
-                    </div>
+                    <button class="cta flex items-center mt-[30px]">
+                        <span class="hover-underline-animation"> Read More </span>
+                        <svg
+                            id="arrow-horizontal"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="10"
+                            viewBox="0 0 46 16">
+                                <path 
+                                    id="Path_10"
+                                    data-name="Path 10"
+                                    d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                    transform="translate(30)"></path>
+                        </svg>
+                    </button>
                 </div>
 
                 {/* ----------- part 2 --------- */}
@@ -72,9 +84,21 @@ export const BlogPage1 = () => {
                         <p className='font-normal font-poppins text-[15px] text-second w-[815px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
                     </div>
                     {/* ---------- button --------- */}
-                    <div>
-                        <Link className='font-poppins font-normal text-[16px] text-black border-b-2 mt-[30px] inline-block'>Read more</Link>
-                    </div>
+                    <button class="cta flex items-center mt-[30px]">
+                        <span class="hover-underline-animation"> Read More </span>
+                        <svg
+                            id="arrow-horizontal"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="10"
+                            viewBox="0 0 46 16">
+                                <path 
+                                    id="Path_10"
+                                    data-name="Path 10"
+                                    d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                    transform="translate(30)"></path>
+                        </svg>
+                    </button>
                 </div>
 
                 {/* ----------- part 3 --------- */}
@@ -104,9 +128,22 @@ export const BlogPage1 = () => {
                         <p className='font-normal font-poppins text-[15px] text-second w-[815px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum.</p>
                     </div>
                     {/* ---------- button --------- */}
-                    <div>
-                        <Link className='font-poppins font-normal text-[16px] text-black border-b-2 mt-[30px] inline-block'>Read more</Link>
-                    </div>
+                    {/* <!-- From Uiverse.io by alexmaracinaru -->  */}
+                    <button class="cta flex items-center mt-[30px]">
+                        <span class="hover-underline-animation"> Read More </span>
+                        <svg
+                            id="arrow-horizontal"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="10"
+                            viewBox="0 0 46 16">
+                                <path 
+                                    id="Path_10"
+                                    data-name="Path 10"
+                                    d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                    transform="translate(30)"></path>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>

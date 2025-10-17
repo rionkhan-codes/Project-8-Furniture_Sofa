@@ -7,6 +7,7 @@ import { About } from './pages/About'
 import { Shop } from './pages/Shop'
 import { Contact } from './pages/Contact'
 import { BlogPage } from './pages/BlogPage'
+import { Account } from './pages/Account'
 
 function App() {
 const myRoute = createBrowserRouter(createRoutesFromElements(
@@ -16,6 +17,7 @@ const myRoute = createBrowserRouter(createRoutesFromElements(
     <Route path='/shop' element = {<Shop/>}/>
     <Route path='/contact' element = {<Contact/>}/>
     <Route path='/blog' element = {<BlogPage/>}/>
+    <Route path='/account' element = {<Account/>}/>
     <Route path='/about' element = {<About/>}/>
     </Route>
   </Route>

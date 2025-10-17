@@ -38,7 +38,7 @@ export const Navbar = () => {
                 </div>
                 {/* ------------ buttons --------- */}
                 <div className='flex items-center gap-[45px]'>
-                    <button><LuUserRound className='text-[25px]' /></button>
+                    <Link to={'/account'}><LuUserRound className='text-[25px]' /></Link>
                     <button><CiSearch className='text-[25px]' /></button>
                     <button><BsCart3 className='text-[25px]' /></button>
                 </div>
